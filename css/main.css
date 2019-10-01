@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #ed4c38;
+  --secondary-color: #FFE5E2;
+  --light-color: #F5F5EB;
+  --dark-color: rgb(104, 101, 101);
+  --max-width: 1100px;
+}
+
+/* #F5F5EB; light grey*/
+/* #ed4c38; pink-red*/
+/* #FFE5E2 pastel-pink*/
+/* 
+font-family: 'Lexend Deca', sans-serif; */
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-color);
+  line-height: 1.5;
+  font-family: 'Lexend Deca', sans-serif;
+  
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  padding: 0 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  padding: 0 10px;
+  font-size: 19px;
+}
+
+span {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Navigation */
+
+.main-nav {
+  background-color: #fff;
+  padding: 20px;
+
+}
+
+.main-nav .container {
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr;
+}
+
+.container p {
+  font-size: 22px;
+}
+
